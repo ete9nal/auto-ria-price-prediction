@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "auto-ria-price-prediction"
+version = "0.1.0"
+description = "Used car price prediction for Ukrainian market"
+authors = ["ete9nal <ete9nal@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+lightgbm = "*"
+shap = "<0.52"
+matplotlib = "*"
+beautifulsoup4 = "*"
+requests = "*"
+lxml = "*"
+streamlit = "*"
+joblib = "*"
+jupyter = "*"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
