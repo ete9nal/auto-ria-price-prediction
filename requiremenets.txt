@@ -4,5 +4,5 @@ scikit-learn
 lightgbm
 shap
 streamlit
-joblib
+joblib==1.4.2
 matplotlib
