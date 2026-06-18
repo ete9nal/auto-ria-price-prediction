@@ -5,3 +5,4 @@ lightgbm
 shap
 streamlit
 joblib
+matplotlib
