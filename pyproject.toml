@@ -1,0 +1,24 @@
+[project]
+name = "auto-ria-price-prediction"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ete9nal",email = "ete9nal@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "shap (<0.52)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.5.7,<8.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "beautifulsoup4 (>=4.15.0,<5.0.0)",
+    "lxml (>=6.1.1,<7.0.0)",
+    "matplotlib (>=3.11.0,<4.0.0)",
+    "lightgbm (>=4.6.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
